@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "/**.php",
+      "use": "@php-ci/vercel-php@latest",
+      "config": { "phpVersion": "8.x" }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.php"
+    }
+  ]
+}
