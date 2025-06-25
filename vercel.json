@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "/**.php",
-      "use": "now-php@0.0.7",
+      "use": "now-php@1.0.7",
       "config": { "phpVersion": "8.x" }
     }
   ],
